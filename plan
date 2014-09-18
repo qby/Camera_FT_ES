@@ -71,7 +71,7 @@ script.quickswitch.CameraTest.testQuickSwitchtoHDRmode= 1
 script.quickswitch.CameraTest.testQuickSwitchtoSmileCammode= 1
 script.quickswitch.CameraTest.testQuickSwitchtoBurstmode= 1
 script.quickswitch.CameraTest.testQuickSwitchtoPerfectShotmode= 1
-script.quickswitch.CameraTest.testQuickSwitchtoGallery= 1#
+script.quickswitch.CameraTest.testQuickSwitchtoGallery= 1
 
 script.hdrcapture.CameraTest.testCapturePictureWithFDOn = 1
 script.hdrcapture.CameraTest.testCapturePictureWithFDOff = 1
@@ -82,7 +82,7 @@ script.hdrcapture.CameraTest.testCapturepictureWithGeoLocationOff = 1
 script.hdrcapture.CameraTest.testCapturePictureWithSelfTimerOff = 1
 script.hdrcapture.CameraTest.testCapturePictureWithThreeSec = 1
 script.hdrcapture.CameraTest.testCapturePictureWithFiveSec = 1
-script.hdrcapture.CameraTest.testCapturePictureWithTenSec = 1#
+script.hdrcapture.CameraTest.testCapturePictureWithTenSec = 1
 
 script.videocapture.CameraTest.testRecordVideoCaptureVideoWithHSSize = 1
 script.videocapture.CameraTest.testRecordVideoCaptureVideoWithHDSize = 1
@@ -100,7 +100,7 @@ script.videocapture.CameraTest.testRecordVideoCaptureVideoWithBalanceDaylight = 
 script.videocapture.CameraTest.testRecordVideoCaptureVideoWithBalanceFluorescent = 1
 script.videocapture.CameraTest.testRecordVideoCaptureVideoWithBalanceCloudy = 1
 script.videocapture.CameraTest.testRecordVideoWithGeoLocationOn = 1
-script.videocapture.CameraTest.testRecordVideoWithGeoLocationOff = 1#
+script.videocapture.CameraTest.testRecordVideoWithGeoLocationOff = 1
 
 script.burstfastcapture.CameraTest.testCaptureWithExposureAuto = 1
 script.burstfastcapture.CameraTest.testCaptureWithExposurePlugOne = 1
@@ -116,7 +116,7 @@ script.burstfastcapture.CameraTest.testCapturePictureWithScenesNightPortrait = 1
 script.burstfastcapture.CameraTest.testCapturePictureWithSizeWidescreen = 1
 script.burstfastcapture.CameraTest.testCapturePictureWithSizeStandard = 1
 script.burstfastcapture.CameraTest.testCapturepictureWithGeoLocationOn = 1
-script.burstfastcapture.CameraTest.testCapturepictureWithGeoLocationOff = 1#
+script.burstfastcapture.CameraTest.testCapturepictureWithGeoLocationOff = 1
 
 script.burstslowcapture.CameraTest.testCaptureWithExposureAuto = 1
 script.burstslowcapture.CameraTest.testCaptureWithExposurePlugOne = 1
