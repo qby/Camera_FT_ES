@@ -738,7 +738,7 @@ class CameraTest(unittest.TestCase):
         3.Switch to depth mode.
         3.capture image.
         """
-        sm.switchCaptureMode('depth')
+        sm.switchCaptureMode('Depth Snapshot')
         time.sleep(10)
         tb.captureAndCheckPicCount('single')        
        
