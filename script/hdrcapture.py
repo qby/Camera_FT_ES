@@ -70,8 +70,12 @@ class CameraTest(unittest.TestCase):
         #Refresh media after delete files
         a.cmd('refresh','/sdcard/DCIM/*')
         #Launch social camera
-        self._launchCamera()
-
+        a.cmd('launch','com.intel.camera22/.Camera')
+        time.sleep(2)
+        if d(text = 'Skip').wait.exists(timeout = 3000):
+            d(text = 'Skip').click.wait() 
+        if  d(text = 'OK').wait.exists(timeout = 3000):
+            d(text = 'OK').click.wait()
         sm.switchCaptureMode('Single','HDR')
 
     def tearDown(self):
